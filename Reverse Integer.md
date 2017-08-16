@@ -8,8 +8,8 @@ Example2: x = -123, return -321
 ```
 
 ```js
-import test from 'ava'
-import reverseInteger from './reverseInteger'
+const test = require('ava')
+const reverseInteger = require('./reverseInteger')
 
 test('reverseInteger', function (t) {
   t.is(reverseInteger(123), 321)

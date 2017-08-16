@@ -13,8 +13,8 @@ if bmi > 30 return "Obese"
 ```
 
 ```js
-import test from 'ava'
-import calculateBMI from './calculateBMI'
+const test = require('ava')
+const calculateBMI = require('./calculateBMI')
 
 test('calculateBMI', function (t) {
   t.is(calculateBMI(45, 1.76), 'Underweight')

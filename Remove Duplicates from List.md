@@ -9,8 +9,8 @@ Given [1, 1, 2, 3, 3, 3, 4], return [1, 2, 3, 4]
 ```
 
 ```js
-import test from 'ava'
-import removeDuplicates from './removeDuplicates'
+const test = require('ava')
+const removeDuplicates = require('./removeDuplicates')
 
 test('removeDuplicates', function (t) {
   t.deepEqual(removeDuplicates([]), [])

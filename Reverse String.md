@@ -8,8 +8,8 @@ Given s = "hello", return "olleh".
 ```
 
 ```js
-import test from 'ava'
-import reverseString from './reverseString'
+const test = require('ava')
+const reverseString = require('./reverseString')
 
 test('reverseString', function (t) {
   t.is(reverseString(''), '')
