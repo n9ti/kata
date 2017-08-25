@@ -14,8 +14,8 @@ const test = require('ava')
 const isArmstrongNumber = require('./isArmstrongNumber')
 
 test('isArmstrongNumber', function (t) {
-  t.is(isArmstrongNumber(6, true)
-  t.is(isArmstrongNumber(11, false)  
-  t.is(isArmstrongNumber(1634, true)  
+  t.is(isArmstrongNumber(6, true))
+  t.is(isArmstrongNumber(11, false))
+  t.is(isArmstrongNumber(1634, true))
 })
 ```
